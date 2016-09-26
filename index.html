@@ -3,21 +3,35 @@
 <head>
 	<meta charset="utf-8">
 	<title></title>
-	
+	<script src="js/jquery-3.1.1.min.js"></script>
+	<script src="js/typed.js"></script>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" type="text/css" href="css/normalize.css">
 	<!-- Google font -->
 	<link href="https://fonts.googleapis.com/css?family=Old+Standard+TT" rel="stylesheet">	
 	<link rel="stylesheet" type="text/css" href="css/main.css">
-	
+
+
+
 </head>
 <body>
+
 	<div id="box1">
 	<header>
 		   <h1>Hello, Welcome!</h1>
-		<p><h4>Let's see some photography </h4><p>
+		
 		<a href="home.html">Enter</a>
+	
+
 	</header>
+	<script>
+  $(function(){
+      $("#box1 h1").typed({
+        strings: ["<center>Hello World,</center><br/>Welcome To My Page!"],
+        typeSpeed: 0
+      });
+  });
+</script>
 	</div>
 </body>
 </html>
